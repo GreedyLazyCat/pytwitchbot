@@ -1,0 +1,1 @@
+{"!res": {"text": "My current res is 1920x1080", "timeout": 15}, "!group": {"text": "https://vk.com/greedycatgoddamn", "timeout": 15}, "!test": {"text": "test", "timeout": 15}}
