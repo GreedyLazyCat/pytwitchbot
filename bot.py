@@ -16,8 +16,8 @@ commands_file.close()
 cmd_timeouts = []
 for cmd in commands:
     cmd_timeouts.append({'command_name' : cmd, 'last_used' : datetime.utcnow().isoformat()})
-#cmd_timeouts.append({'command_name' : '!followtime', 'last_used' : datetime.utcnow().isoformat()})
-#cmd_timeouts.append({'command_name' : '!uptime', 'last_used' : datetime.utcnow().isoformat()})
+cmd_timeouts.append({'command_name' : '!followtime', 'last_used' : datetime.utcnow().isoformat()})
+cmd_timeouts.append({'command_name' : '!uptime', 'last_used' : datetime.utcnow().isoformat()})
 print(cmd_timeouts)
 
 print(commands)
